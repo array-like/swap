@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@array-like/alloc@^0.0.1":
+"@array-like/alloc@0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@array-like/alloc/-/alloc-0.0.1.tgz#2e013fa83dc278d2b0b7f9cb8747795d8a0abbff"
   integrity sha512-IwWJV6E2McrwXbzKttW6haVvIYWMFKtXXD7H1SkyfzulfShUar28mcrvo6fXRF+atBxFFAy5CAXg2ymMsTaC+g==
@@ -1207,7 +1207,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@randomized/random@^4.0.0":
+"@randomized/random@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@randomized/random/-/random-4.0.0.tgz#3664429ea3fd97a1bf321897d03e4681fd7b00c7"
   integrity sha512-4dG15onq/4tXLMTrG12hRrlL3/hJ8yJbWc4YD3db45z5P5UtRqSQRqaW518YkXhXaIsLX1pA78FJBDl8jg85sw==
