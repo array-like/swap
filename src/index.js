@@ -1,2 +1,2 @@
-const answer = 42;
-export default answer;
+export {default as swap} from './swap.js';
+export {default as swapRanges} from './swapRanges.js';

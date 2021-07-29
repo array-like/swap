@@ -4,12 +4,21 @@
 ArrayLike value swapping for JavaScript.
 See [docs](https://array-like.github.io/swap/index.html).
 
-> :building_construction: Caveat emptor! This is work in progress. Code may be
-> working. Documentation may be present. Coherence may be. Maybe.
+```js
+import {swapRanges} from '@array-like/swap';
+import {alloc} from '@array-like/alloc';
+import {iota} from '@array-like/iota';
 
-> :warning: Depending on your environment, the code may require
-> `regeneratorRuntime` to be defined, for instance by importing
-> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
+const n = 6;
+const a = alloc(n);
+iota(a, 0, n, 0);
+const b = alloc(n);
+iota(b, 0, n, 0);
+
+swapRanges(a, 0, 3, b, 3);
+a; // 3 4 5 3 4 5
+b; // 0 1 2 0 1 2
+```
 
 [![License](https://img.shields.io/github/license/array-like/swap.svg)](https://raw.githubusercontent.com/array-like/swap/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@array-like/swap.svg)](https://www.npmjs.org/package/@array-like/swap)
