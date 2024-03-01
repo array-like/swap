@@ -3,9 +3,8 @@ import test from 'ava';
 import {_calloc} from '@array-like/alloc';
 import {randint} from '@randomized/random';
 
-import {swapRanges} from '../../src/index.js';
-
 import {arrayTypes} from './_fixtures.js';
+import {swapRanges} from '#module';
 
 const macro = (t, Constructor) => {
 	const calloc = _calloc(Constructor);
