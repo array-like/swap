@@ -4,6 +4,7 @@ import {_calloc} from '@array-like/alloc';
 import {randint} from '@randomized/random';
 
 import {arrayTypes} from './_fixtures.js';
+
 import {swap} from '#module';
 
 const macro = (t, Constructor) => {
