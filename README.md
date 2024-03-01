@@ -22,7 +22,7 @@ b; // 0 1 2 0 1 2
 
 [![License](https://img.shields.io/github/license/array-like/swap.svg)](https://raw.githubusercontent.com/array-like/swap/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@array-like/swap.svg)](https://www.npmjs.org/package/@array-like/swap)
-[![Tests](https://img.shields.io/github/workflow/status/array-like/swap/ci?event=push&label=tests)](https://github.com/array-like/swap/actions/workflows/ci.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/actions/workflow/status/array-like/swap/ci.yml?branch=main&event=push&label=tests)](https://github.com/array-like/swap/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/array-like/swap.svg)](https://github.com/array-like/swap/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/array-like/swap.svg)](https://github.com/array-like/swap/issues)
 [![Downloads](https://img.shields.io/npm/dm/@array-like/swap.svg)](https://www.npmjs.org/package/@array-like/swap)
